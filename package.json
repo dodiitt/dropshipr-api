@@ -1,0 +1,22 @@
+{
+    "name": "dropshipr-api",
+    "version": "1.0.0",
+    "description": "Dropshipr Management Platform API",
+    "main": "index.js",
+    "repository": "https://github.com/radityasurya/dropshipr-api.git",
+    "author": "radityasurya <radityasurya@hotmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.5",
+        "dotenv": "^6.2.0",
+        "express": "^4.16.4",
+        "express-validation": "^1.0.2",
+        "http-status": "^1.3.1",
+        "mongoose": "^5.4.2",
+        "nodemon": "^1.18.9"
+    }
+}
